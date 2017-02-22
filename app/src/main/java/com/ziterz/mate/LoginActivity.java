@@ -16,4 +16,8 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+    public void OpenChat (View view){
+        Intent i = new Intent(this, Main2Activity.class);
+        startActivity(i);
+    }
 }

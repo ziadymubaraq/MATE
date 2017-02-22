@@ -10,6 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+
     android:background="@color/colorBackground"
     tools:context="com.ziterz.mate.MainActivity">
 
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
         android:layout_gravity="center"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,8 +31,10 @@
 
         <Button
             android:text="Next"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:textColor="#27ae60"
+            android:backgroundTint="#ffffffff"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:id="@+id/next_btn"
@@ -38,23 +42,36 @@
             android:onClick="OpenLoginView"/>
 
         <Button
-            android:text="Reminder"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:text="REMINDER"
+            android:backgroundTint="#27ae60"
+            android:textColor="#ffffffff"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
             android:id="@+id/reminder_btn"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"/>
+            android:layout_alignParentBottom="true"
+            android:elevation="0dp"
+            android:textAllCaps="false" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:textColor="#eee"
+            android:background="#33ffffff"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
             android:inputType="textPersonName"
-            android:text="Project Name"
             android:ems="10"
-            android:layout_above="@+id/button2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="42dp"
-            android:id="@+id/editText" />
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="49dp"
+            android:textSize="18sp"
+            android:autoText="false"
+            android:elevation="0dp"
+            android:hint="Project Name" />
 
     </RelativeLayout>
 

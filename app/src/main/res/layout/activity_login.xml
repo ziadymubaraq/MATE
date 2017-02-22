@@ -14,8 +14,8 @@
     tools:context="com.ziterz.mate.LoginActivity">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="151dp"
+        android:layout_height="148dp"
         app:srcCompat="@drawable/logo"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
@@ -30,32 +30,69 @@
 
         <Button
             android:text="Login"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:backgroundTint="#ffffffff"
+            android:textColor="#27ae60"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:id="@+id/login_btn"
+            android:onClick="OpenChat"
             android:layout_alignParentBottom="true" />
 
         <Button
             android:text="Back"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_width="160dp"
+            android:backgroundTint="#27ae60"
+            android:textColor="#ffffffff"
+            android:layout_height="50dp"
             android:id="@+id/back_btn"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:onClick="CloseLoginView"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Project Name"
+            android:layout_width="300dp"
+            android:background="#5Affffff"
+            android:layout_height="30dp"
+            android:elevation="0dp"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
             android:ems="10"
-            android:layout_above="@+id/button2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="42dp"
-            android:id="@+id/editText" />
+            android:id="@+id/editText"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:hint="Password"
+            android:textColor="#eee"
+
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:background="#5Affffff"
+            android:paddingLeft="10dp"
+            android:textColor="#eee"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:elevation="0dp"
+            android:layout_marginTop="22dp"
+            android:hint="Email Address"
+            android:textIsSelectable="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Forgot Password?"
+            android:textColor="#ffffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 </LinearLayout>
