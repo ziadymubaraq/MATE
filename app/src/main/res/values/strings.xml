@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">MATE</string>
+    <string name="project_title">Your Project Name</string>
+    <string name="project_caption">We'll use this to name your project. You can always change it later.</string>
+    <string name="user_title">Create your Account</string>
+    <string name="username_hint">Username</string>
+    <string name="create_user_caption">Create your unique Username and Password!</string>
+    <string name="email_title">Email Address</string>
+    <string name="email_caption">We suggest using your work email if you're creatin a team for your business, department, or project.</string>
+    <string name="login_btn">Login</string>
+    <string name="back_btn">Back</string>
+    <string name="next_btn">Next</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="reminder_btn">Reminder</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_caption">Forgot Password?</string>
+    <string name="welcome_caption">Welcome to MATE !</string>
+    <string name="welcome_subcaption">Manage your teamate with this Apps!</string>
+    <string name="project_text">New Project</string>
+    <string name="logo_text">Logo</string>
+    <string name="typing">Typing</string>
 </resources>

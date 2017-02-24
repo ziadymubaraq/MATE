@@ -19,10 +19,9 @@
         android:layout_height="150dp"
         app:srcCompat="@drawable/logo"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo_text" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,9 +29,8 @@
         android:layout_gravity="end">
 
         <Button
-            android:text="Next"
+            android:text="@string/next_btn"
             android:textColor="#27ae60"
-            android:backgroundTint="#ffffffff"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:layout_alignParentRight="true"
@@ -42,36 +40,35 @@
             android:onClick="OpenLoginView"/>
 
         <Button
-            android:text="REMINDER"
-            android:backgroundTint="#27ae60"
+            android:text="@string/reminder_btn"
             android:textColor="#ffffffff"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:id="@+id/reminder_btn"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:elevation="0dp"
             android:textAllCaps="false" />
 
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="50dp"
+            android:id="@+id/username_text_input_layout"
             android:layout_width="match_parent"
-            android:textColor="#eee"
-            android:background="#33ffffff"
-            android:layout_height="35dp"
-            android:paddingLeft="10dp"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="49dp"
-            android:textSize="18sp"
-            android:autoText="false"
-            android:elevation="0dp"
-            android:hint="Project Name" />
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+            android:textColorHint="#c1c2c4">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginTop="54dp"
+                android:id="@+id/editText2"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:hint="@string/project_title"/>
+
+        </android.support.design.widget.TextInputLayout>
 
     </RelativeLayout>
 
