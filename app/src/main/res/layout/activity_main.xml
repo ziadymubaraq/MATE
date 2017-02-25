@@ -15,13 +15,35 @@
     tools:context="com.ziterz.mate.MainActivity">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="@dimen/logo_extra_width"
+        android:layout_height="@dimen/logo_extra_width"
         app:srcCompat="@drawable/logo"
         android:id="@+id/imageView"
-        android:layout_marginTop="87dp"
+        android:layout_marginTop="@dimen/logo_margin_top"
         android:layout_gravity="center"
         android:contentDescription="@string/logo_text" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="@dimen/form_margin"
+        android:id="@+id/username_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+        android:textColorHint="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginTop="@dimen/form_margin"
+            android:id="@+id/editText2"
+            android:textSize="@dimen/text_size_input"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:hint="@string/project_title"/>
+
+    </android.support.design.widget.TextInputLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,46 +51,38 @@
         android:layout_gravity="end">
 
         <Button
+            android:text="@string/reminder_btn"
+            android:onClick="ReminderProject"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder_btn"
+            android:backgroundTint="@color/colorBackground"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/divider1"
+            android:layout_alignEnd="@+id/divider1"/>
+
+        <View android:id="@+id/divider1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
             android:text="@string/next_btn"
-            android:textColor="#27ae60"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
+            android:textColor="@color/colorBackground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:id="@+id/next_btn"
             android:layout_alignParentBottom="true"
-            android:onClick="OpenLoginView"/>
-
-        <Button
-            android:text="@string/reminder_btn"
-            android:textColor="#ffffffff"
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            android:id="@+id/reminder_btn"
-            android:layout_alignParentBottom="true"
-            android:textAllCaps="false" />
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_marginTop="50dp"
-            android:id="@+id/username_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
-            android:textColorHint="#c1c2c4">
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:layout_marginTop="54dp"
-                android:id="@+id/editText2"
-                android:textSize="18sp"
-                android:textColor="@color/white"
-                android:layout_alignParentTop="true"
-                android:hint="@string/project_title"/>
-
-        </android.support.design.widget.TextInputLayout>
+            android:onClick="OpenLoginView"
+            android:layout_alignLeft="@+id/divider1"
+            android:layout_alignStart="@+id/divider1"/>
 
     </RelativeLayout>
 

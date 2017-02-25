@@ -5,15 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class creaateproject extends AppCompatActivity {
+public class CreateProjectActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_creaateproject);
+        setContentView(R.layout.activity_create_project);
     }
     public void openCreateEmail(View view){
-        Intent i = new Intent(this, enteremail.class);
+        Intent i = new Intent(this, EnterEmailActivity.class);
         startActivity(i);
 
     }

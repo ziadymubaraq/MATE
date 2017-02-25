@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class welcome extends AppCompatActivity {
+public class WelcomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class welcome extends AppCompatActivity {
 
     }
     public void openCreateP (View view){
-        Intent i = new Intent(this, creaateproject.class);
+        Intent i = new Intent(this, CreateProjectActivity.class);
         startActivity(i);
     }
 }

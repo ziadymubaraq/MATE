@@ -11,24 +11,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.ziterz.mate.creaateproject">
+    tools:context="com.ziterz.mate.CreateProjectActivity">
 
     <android.support.design.widget.TextInputLayout
-        android:layout_marginTop="50dp"
-        android:id="@+id/username_text_input_layout"
+        android:layout_marginTop="@dimen/form_margin"
+        android:id="@+id/text_input_layout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
-        android:textColorHint="#c1c2c4">
+        android:textColorHint="@color/white">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:layout_marginTop="54dp"
-            android:id="@+id/editText2"
-            android:textSize="18sp"
+            android:layout_marginTop="@dimen/form_margin"
+            android:id="@+id/project_name"
+            android:textSize="@dimen/text_size_input"
             android:textColor="@color/white"
             android:layout_alignParentTop="true"
             android:hint="@string/project_title"/>
@@ -37,22 +37,25 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
 
         <TextView
             android:text="@string/project_caption"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_caption"
             android:id="@+id/textView4"
             android:textColor="@color/white"
-            android:layout_marginTop="14dp"/>
+            android:layout_marginTop="@dimen/text_size_caption"/>
         <Button
             android:text="@string/next_btn"
             android:onClick="openCreateEmail"
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:id="@+id/button3"
-            android:textColor="#27ae60"
+            android:id="@+id/next_btn1"
+            android:textColor="@color/colorBackground"
+            android:backgroundTint="@color/white"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />

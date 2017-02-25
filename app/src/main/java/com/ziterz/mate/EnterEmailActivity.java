@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class enteremail extends AppCompatActivity {
+public class EnterEmailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,7 +13,7 @@ public class enteremail extends AppCompatActivity {
         setContentView(R.layout.activity_enteremail);
     }
     public void openCreateUser (View view){
-        Intent i = new Intent(this, createUser.class);
+        Intent i = new Intent(this, CreateUserActivity.class);
         startActivity(i);
     }
 }

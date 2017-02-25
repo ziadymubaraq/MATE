@@ -2,4 +2,23 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- MATE! Customize text size -->
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="text_size_tagline">20sp</dimen>
+    <dimen name="text_size_subline">15sp</dimen>
+    <dimen name="text_size_caption">14sp</dimen>
+    <dimen name="text_size_input">18sp</dimen>
+
+    <!-- MATE! Customize margin, padding size -->
+    <dimen name="text_extra_margin">15dp</dimen>
+    <dimen name="text_medium_margin">10dp</dimen>
+    <dimen name="text_small_margin">5dp</dimen>
+    <dimen name="form_margin">50dp</dimen>
+    <dimen name="input_margin">20dp</dimen>
+    <dimen name="logo_margin_top">150dp</dimen>
+
+    <!-- MATE! Customize asset -->
+    <dimen name="logo_extra_width">130dp</dimen>
+    <dimen name="logo_extra_height">130dp</dimen>
 </resources>
