@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ziterz.mate.HomeActivity"
+    tools:showIn="@layout/app_bar_home"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bdc3c7" />
+    <RelativeLayout
+        android:id="@+id/chat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fotolima"
+            android:id="@+id/circle4"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/fazrian"/>
+
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_15_38"
+            android:layout_alignBottom="@+id/uname1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fazrian"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/uname1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/circle4"
+            android:layout_toEndOf="@+id/circle4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jod_progress_kamu_sudah_sampai_mana"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circle4"
+            android:layout_toEndOf="@+id/circle4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/chat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ziady"
+            android:id="@+id/circle3"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/ziady"/>
+
+        <TextView
+            android:id="@+id/time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_15_40"
+            android:layout_alignBottom="@+id/uname3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ziady"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/uname3"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/circle3"
+            android:layout_toEndOf="@+id/circle3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sudah_70_dari_total_kerjaan_jri"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circle3"
+            android:layout_toEndOf="@+id/circle3" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/january_28th_2017"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bdc3c7" />
+    <RelativeLayout
+        android:id="@+id/chat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fotodua"
+            android:id="@+id/circle2"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/ramzy"/>
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_07_20"
+            android:layout_alignBottom="@+id/uname2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ramzy"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/uname2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/circle2"
+            android:layout_toEndOf="@+id/circle2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gimana_nih_tugas_proposal_sudah_selesai"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circle2"
+            android:layout_toEndOf="@+id/circle2" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/chat4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fotoempat"
+            android:id="@+id/circle4"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/adit"/>
+
+        <TextView
+            android:id="@+id/time4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_07_25"
+            android:layout_alignBottom="@+id/uname4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/uname4"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/circle4"
+            android:layout_toEndOf="@+id/circle4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sudah_bro_ini_saya_upload"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circle4"
+            android:layout_toEndOf="@+id/circle4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/chat5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fototiga"
+            android:id="@+id/circle5"
+            android:paddingRight="10dp"
+            android:contentDescription="@string/mufid"/>
+
+        <TextView
+            android:id="@+id/time5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_07_27"
+            android:layout_alignBottom="@+id/uname5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mufid"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/uname5"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/circle5"
+            android:layout_toEndOf="@+id/circle5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bergabung_di_general"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circle5"
+            android:layout_toEndOf="@+id/circle5" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="@string/typing"
+            android:textSize="@dimen/text_size_typing"
+            android:padding="@dimen/text_chat"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:imeOptions="actionSend"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+</LinearLayout>

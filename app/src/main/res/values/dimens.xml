@@ -9,6 +9,7 @@
     <dimen name="text_size_subline">15sp</dimen>
     <dimen name="text_size_caption">14sp</dimen>
     <dimen name="text_size_input">18sp</dimen>
+    <dimen name="text_size_typing">16dp</dimen>
 
     <!-- MATE! Customize margin, padding size -->
     <dimen name="text_extra_margin">15dp</dimen>
@@ -17,8 +18,20 @@
     <dimen name="form_margin">50dp</dimen>
     <dimen name="input_margin">20dp</dimen>
     <dimen name="logo_margin_top">150dp</dimen>
+    <dimen name="text_chat">10dp</dimen>
 
     <!-- MATE! Customize asset -->
     <dimen name="logo_extra_width">130dp</dimen>
     <dimen name="logo_extra_height">130dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

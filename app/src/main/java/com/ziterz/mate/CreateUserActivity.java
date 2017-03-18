@@ -11,9 +11,10 @@ public class CreateUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_user);
+        getSupportActionBar().hide();
     }
     public void openChat (View view){
-        Intent i = new Intent(this, Main2Activity.class);
+        Intent i = new Intent(this, HomeActivity.class);
         startActivity(i);
     }
 
