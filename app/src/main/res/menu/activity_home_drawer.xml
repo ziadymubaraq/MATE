@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Unreads">
+        <menu>
+            <item
+                android:id="@+id/user1"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="fazrian" />
+        </menu>
+    </item>
+    <item android:title="Channels">
+        <menu>
+            <item
+                android:id="@+id/channel1"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="general" />
+        </menu>
+    </item>
+    <item android:title="Direct Messages">
+        <menu>
+            <item
+                android:id="@+id/dm1"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="adit" />
+            <item
+                android:id="@+id/dm2"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="fazrian" />
+            <item
+                android:id="@+id/dm3"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="mufid" />
+            <item
+                android:id="@+id/dm4"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="ramzy" />
+            <item
+                android:id="@+id/dm5"
+                android:icon="@drawable/ic_radio_button_unchecked_white_24px"
+                android:title="ziady" />
+        </menu>
+    </item>
+
+</menu>

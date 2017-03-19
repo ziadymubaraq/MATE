@@ -77,19 +77,19 @@
         android:layout_gravity="end">
 
         <Button
-            android:text="@string/login_btn"
-            android:onClick="OpenChat"
+            android:text="@string/back_btn"
+            android:onClick="CloseLoginView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/signin_btn1"
+            android:id="@+id/back_btn"
             android:textColor="@color/white"
             android:backgroundTint="@color/colorBackground"
+            android:textSize="@dimen/text_size_button"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/divider"
             android:layout_alignEnd="@+id/divider"/>
-
 
         <View android:id="@+id/divider"
             android:layout_width="0dp"
@@ -98,13 +98,12 @@
             android:layout_centerHorizontal="true"/>
 
         <Button
-            android:text="@string/back_btn"
-            android:onClick="CloseLoginView"
+            android:text="@string/login_btn"
+            android:onClick="OpenChat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/back_btn"
+            android:id="@+id/signin_btn1"
             android:backgroundTint="@color/white"
-            android:textSize="@dimen/text_size_button"
             android:textColor="@color/colorBackground"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"

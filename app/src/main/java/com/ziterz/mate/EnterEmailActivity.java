@@ -11,6 +11,7 @@ public class EnterEmailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enteremail);
+        getSupportActionBar().hide();
     }
     public void openCreateUser (View view){
         Intent i = new Intent(this, CreateUserActivity.class);
