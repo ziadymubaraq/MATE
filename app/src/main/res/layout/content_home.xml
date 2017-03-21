@@ -34,7 +34,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/fotolima"
-            android:id="@+id/circle4"
+            android:id="@+id/circle1"
             android:paddingRight="10dp"
             android:contentDescription="@string/fazrian"/>
 
@@ -55,16 +55,16 @@
             android:textStyle="bold"
             android:id="@+id/uname1"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/circle4"
-            android:layout_toEndOf="@+id/circle4" />
+            android:layout_toRightOf="@+id/circle1"
+            android:layout_toEndOf="@+id/circle1" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/jod_progress_kamu_sudah_sampai_mana"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/circle4"
-            android:layout_toEndOf="@+id/circle4" />
+            android:layout_toRightOf="@+id/circle1"
+            android:layout_toEndOf="@+id/circle1" />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/chat2"
